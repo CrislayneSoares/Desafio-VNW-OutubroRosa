@@ -12,10 +12,11 @@ body {
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 118px;
+    height: 14vh;
     padding: 0 40px;
     background-color: #FF69B4;
     color: white;
@@ -25,8 +26,7 @@ header {
         align-items: center;
 
         img {
-            width: 100px;
-            height: 100px;
+            width: 90px;
             margin-right: 20px;
         }
     }
@@ -42,13 +42,40 @@ header {
 
 .sec-sobre-outubro-rosa {
     display: flex;
-    
+    width: 100%;
+    align-items: center;
+    padding: 3% 3%;
+    background-color: #FFD9EC;
+    text-align: justify;
+    font-size: 25px;
+
+    p {
+        padding-right: 5%;
+    }
 }
 
 .sec-evento-outubro-rosa {
+    width: 100%;
     display: flex;
+    align-items: center;
+    padding: 3% 3%;
     background-color: #FF69B4;
+    text-align: justify;
+    font-size: 25px;
     color: white;
+
+    p {
+        padding-left: 5%;
+    }
+}
+
+.sec-dicas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 4%;
+    background-color: #FFD9EC;
 }
 
 footer {
@@ -56,11 +83,19 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px 40px;
     background-color: #FF69B4;
     color: white;
+    text-align: center;
+    font-size: 18px;
 
     nav ul {
         display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            padding: 0 6px;
+        }
     }
 }

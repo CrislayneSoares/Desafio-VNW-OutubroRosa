@@ -12,10 +12,11 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 118px;
+  height: 14vh;
   padding: 0 40px;
   background-color: #FF69B4;
   color: white;
@@ -25,8 +26,7 @@ header .logo-title {
   align-items: center;
 }
 header .logo-title img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
   margin-right: 20px;
 }
 header nav ul {
@@ -38,12 +38,38 @@ header nav ul li {
 
 .sec-sobre-outubro-rosa {
   display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 3% 3%;
+  background-color: #FFD9EC;
+  text-align: justify;
+  font-size: 25px;
+}
+.sec-sobre-outubro-rosa p {
+  padding-right: 5%;
 }
 
 .sec-evento-outubro-rosa {
+  width: 100%;
   display: flex;
+  align-items: center;
+  padding: 3% 3%;
   background-color: #FF69B4;
+  text-align: justify;
+  font-size: 25px;
   color: white;
+}
+.sec-evento-outubro-rosa p {
+  padding-left: 5%;
+}
+
+.sec-dicas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 4%;
+  background-color: #FFD9EC;
 }
 
 footer {
@@ -51,10 +77,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px;
+  padding: 20px 40px;
   background-color: #FF69B4;
   color: white;
+  text-align: center;
+  font-size: 18px;
 }
 footer nav ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer nav ul li {
+  padding: 0 6px;
 }/*# sourceMappingURL=style.css.map */
